@@ -307,7 +307,7 @@ USA Form 990, the following `IncomeType` values are supported:
 
 * `RBI`, which refers to "related business income".
 
-* `UBTI`, which refers to "unrelated business taxable income.
+* `UBTI`, which refers to "unrelated business taxable income".
 
 Not that donor-advised funds and government grants don't currently have their
 own `IncomeType`.  It's possible this might be necessary; the authors aren't
@@ -412,7 +412,7 @@ ledger itself via the configurations found in `config-tags.ledger` and
 
 Each `Expenses:` account entry must be tagged with the following tags:
 
-* One of: [`Invoice:`](#invoice-tag) [`Receipt:`](#receipt-tag), or
+* One of: [`Invoice:`](#invoice-tag), [`Receipt:`](#receipt-tag), or
   [`Statement`](#statement-tag).  (The only exception to this rule: an entry
   does not need an `Invoice:`, `Receipt`, nor a `Statement` tag if the
   [payee was never charged](#never-charged-payee).)
@@ -573,4 +573,3 @@ document has been separated from the repository, a
 [copy of GPL can be found on FSF's website](http://www.gnu.org/licenses/gpl.txt)
 and a
 [copy of CC-By-SA-USA-3.0 can be found on Creative Commons' website](http://creativecommons.org/licenses/by-sa/3.0/us/legalcode).
-
