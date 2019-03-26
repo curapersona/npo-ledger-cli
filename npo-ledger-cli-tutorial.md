@@ -463,7 +463,7 @@ Each `Income:` account must have the following tags:
 
 * One of: [`Invoice:`](#invoice-tag),
   [`PurchaseOrder:`](#purchase-order-tag),
-  [`Statement:`](#statement-tag) or
+  [`Statement:`](#statement-tag), or
   [`Contract`](#contract-tag).  Exceptions to this requirement are as follows:
      + the income generated from the transaction is less than $800, or
      + the `IncomeType` is `RBI` and the income is for a defined, public
