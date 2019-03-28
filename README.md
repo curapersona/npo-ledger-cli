@@ -12,7 +12,7 @@ for-profit equivalents.
 This project is designed to provide some basic templates, tutorials, workflow
 documentation and scripts to handle accounting for an NPO.  The primary
 example is a
-[direct project (aka Model A) fiscal sponsor NPO](http://en.wikipedia.org/wiki/Fiscal_sponsorship#Models_of_fiscal_sponsorship).
+[direct project (aka Model A) fiscal sponsor NPO](https://en.wikipedia.org/wiki/Fiscal_sponsorship#Models_of_fiscal_sponsorship).
 
 The tutorials herein
 
@@ -36,4 +36,4 @@ copyright holders grant a waiver and/or license under the terms of CC0-1.0, as
 published by Creative Commons, Inc.  A copy of CC0-1.0 can be found in the
 same repository as this README.md file under the filename CC0-1.0.txt.  If
 this document has been separated from the repository, a [copy of CC0-1.0 can
-be found on Creative Commons' website](http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+be found on Creative Commons' website](https://creativecommons.org/publicdomain/zero/1.0/legalcode).

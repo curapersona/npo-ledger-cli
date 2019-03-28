@@ -1,7 +1,7 @@
  
 Some documentation is  already there on internal representation of numbers in ledger. It stores numbers as rational numbers avoid rounding problems arising of floating point representation.
 
-http://www.ledger-cli.org/3.0/doc/ledger3.html#Specifying-Amounts
+https://www.ledger-cli.org/3.0/doc/ledger3.html#Specifying-Amounts
 
 The only time when rounding occurs is while displaying. But there are some other rounding problems in accountancy and it will be good to have a discussion on them.
 

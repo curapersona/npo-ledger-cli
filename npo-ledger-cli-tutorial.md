@@ -13,10 +13,10 @@ for-profit equivalents.
 This project is designed to provide some basic templates, tutorials, workflow
 documentation and scripts to handle accounting for an NPO.  The primary
 example is a
-[direct project (aka Model A) fiscal sponsor NPO](http://en.wikipedia.org/wiki/Fiscal_sponsorship#Models_of_fiscal_sponsorship).
+[direct project (aka Model A) fiscal sponsor NPO](https://en.wikipedia.org/wiki/Fiscal_sponsorship#Models_of_fiscal_sponsorship).
 
 This tutorial was written primarily based on
-[Software Freedom Conservancy](http://sfconservancy.org/)'s use of Ledger CLI
+[Software Freedom Conservancy](https://sfconservancy.org/)'s use of Ledger CLI
 from 2008-10-22 to present for its own accounting needs.  While Conservancy
 has done well using this system, and believes that its account system meets
 Generally accepted accounting principles (GAAP), this document **does not**
@@ -570,6 +570,6 @@ described above.
 A copy of GPLv3 and CC-By-SA-3.0-USA can be found in the same repository as
 this file under the filenames GPLv3.txt and CC-By-SA-3.0-USA.txt.  If this
 document has been separated from the repository, a
-[copy of GPL can be found on FSF's website](http://www.gnu.org/licenses/gpl.txt)
+[copy of GPL can be found on FSF's website](https://www.gnu.org/licenses/gpl.txt)
 and a
-[copy of CC-By-SA-USA-3.0 can be found on Creative Commons' website](http://creativecommons.org/licenses/by-sa/3.0/us/legalcode).
+[copy of CC-By-SA-USA-3.0 can be found on Creative Commons' website](https://creativecommons.org/licenses/by-sa/3.0/us/legalcode).
