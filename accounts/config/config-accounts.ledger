@@ -46,7 +46,7 @@ account Accrued:Accounts Payable:Main Org
 
 ; NOTE: the payee =~ test is *not* included herein and must be cut-and-pasted
 ;       to the assert in every Expense account because of the following bug:
-;               http://bugs.ledger-cli.org/show_bug.cgi?id=953
+;               https://github.com/ledger/ledger/issues/953
 
 define expenseChecker() = (tag("Receipt") !~ /^\s*$/ or tag("Invoice") !~ /^\s*$/ or tag("Statement") !~ /^\s*$/) and tag("Program") !~ /^\s*$/
 ; or payee =~ /NEVER CHARGED/
