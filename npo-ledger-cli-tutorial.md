@@ -271,10 +271,10 @@ When provided, the `TaxReporting` tag accompanies a `TaxImplication` information
 tag.  The TaxReporting refers to a document that verifies the choice for the
 `TaxImplication` tag.  For example, for individual contractors in the USA, a
 `TaxImplication` of `1099` would be well served by a `TaxReporting` that
-links to a [W-9](https://www.irs.gov/pub/irs-pdf/fw9.pdf) for the individual
+links to a [W-9](https://www.irs.gov/forms-pubs/about-form-w-9) for the individual
 being paid.  For a individual foreign contractor, the `TaxReporting` might
 link to a
-[W8-BEN](https://www.irs.gov/uac/form-w-8ben-certificate-of-foreign-status-of-beneficial-owner-for-united-states-tax-withholding)
+[W8-BEN](https://www.irs.gov/forms-pubs/about-form-w-8-ben)
 for the payee.
 
 ### Information Tags
@@ -397,7 +397,7 @@ that the geographical reason be identified with the
 code for the country where the grant goes.
 
 This tag is to assist in filing
-Form 990, [Schedule I](https://www.irs.gov/uac/about-schedule-i-form-990) and
+Form 990, [Schedule I](https://www.irs.gov/forms-pubs/about-schedule-i-form-990) and
 [Schedule F](https://www.irs.gov/charities-non-profits/exempt-organizations-annual-reporting-requirements-foreign-activities-form-990-schedule-f-activities-reported).
 
 ### Account Type Documentation Requirements
