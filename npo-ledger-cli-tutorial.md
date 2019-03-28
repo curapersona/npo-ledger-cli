@@ -172,7 +172,7 @@ has three tags: [`Entity`](#entity-tag), [`Invoice`](#invoice-tag) and
 [`IncomeType`](#income-type).  The `Entity` and `Invoice` tags, since they're
 listed at the top of the transaction, propagate through and apply to both
 sides.  But, the `IncomeType` tag, which has no meaning for `Accrued:`
-accounts, so it is applied only to the `Income:Main Org:Donations` part of
+accounts, is applied only to the `Income:Main Org:Donations` part of
 the transaction.
 
 Below you'll find detailed descriptions of all the possible tags that are
@@ -267,7 +267,7 @@ Some examples of appropriate uses of the `Statement:` tag are:
 The `TaxReporting` tag is an optional tag for `Assets` accounts that debit to
 the account.
 
-When provided, the `TaxReporting` accompanies a `TaxImplication` information
+When provided, the `TaxReporting` tag accompanies a `TaxImplication` information
 tag.  The TaxReporting refers to a document that verifies the choice for the
 `TaxImplication` tag.  For example, for individual contractors in the USA, a
 `TaxImplication` of `1099` would be well served by a `TaxReporting` that
@@ -340,8 +340,8 @@ The possible values for this field are:
 
 * `Accountant-Advises-No-1099`, indicating that the circumstances and rules
   seem to indicate a USA Federal Form 1099 should be issued for the `Entity`
-  involved, but an outside accountant advised that no 1099 need be issues for
-  this `Entity`.
+  involved, but an outside accountant advised that no 1099 needs be issued
+  for this `Entity`.
 
 * `Bank-Transfer`, indicating that the amount is a transfer between two
   banking accounts under the control of the NPO itself.
@@ -427,8 +427,8 @@ Expense accounts can have the following optional tag:
 #### NEVER CHARGED Payee
 
 The only exception to the standard tagging requirement is when the payee has
-been modified to indicate that the expense was `NEVER CHARGED`.  This is an
-historical special-case.  The solution was originally design for the
+been modified to indicate that the expense was `NEVER CHARGED`.  This is a
+historical special-case.  The solution was originally designed for the
 following scenario:
 
 Suppose an expense was expected &mdash; for example, a situation where you
@@ -453,7 +453,7 @@ it like this:
         Liabilities:Credit Card:Visa             $100.00
         Expenses:Conservancy:Hosting            $-100.00
 
-However, going forward, you'd likely never enter anything the ledger
+However, going forward, you'd likely never enter anything into the ledger
 **until** you had real proof via an Invoice, Receipt or Statement that showed
 the Expense did/should occur.  This use of `NEVER CHARGED` in the payee is
 thus deprecated.
