@@ -99,6 +99,7 @@ will generate a file called `chart-of-accounts.csv`, which is the chart of accou
 
 The main command-line program though, that generates the chart of accounts
 looks like this:
+
     $ ledger -f accounts/main/books.ledger -V -F "%-150A\n" -w -s -b 2012/01/01 -e 2013/01/01 reg
 
 Note that this is bound by date.  Typically, it makes sense to list your
