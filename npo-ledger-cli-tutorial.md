@@ -274,7 +274,7 @@ tag.  The TaxReporting refers to a document that verifies the choice for the
 links to a [W-9](https://www.irs.gov/forms-pubs/about-form-w-9) for the individual
 being paid.  For a individual foreign contractor, the `TaxReporting` might
 link to a
-[W8-BEN](https://www.irs.gov/forms-pubs/about-form-w-8-ben)
+[W-8BEN](https://www.irs.gov/forms-pubs/about-form-w-8-ben)
 for the payee.
 
 ### Information Tags
