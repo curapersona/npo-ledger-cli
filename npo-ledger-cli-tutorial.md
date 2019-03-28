@@ -169,7 +169,7 @@ example, in this entry:
 
 The portion of the transaction that credits the `Income:Main Org:Donations`
 has three tags: [`Entity`](#entity-tag), [`Invoice`](#invoice-tag) and
-[`IncomeType`](#income-type).  The `Entity` and `Invoice` tags, since they're
+[`IncomeType`](#incometype-tag).  The `Entity` and `Invoice` tags, since they're
 listed at the top of the transaction, propagate through and apply to both
 sides.  But, the `IncomeType` tag, which has no meaning for `Accrued:`
 accounts, is applied only to the `Income:Main Org:Donations` part of
@@ -324,7 +324,7 @@ transaction includes a payment of $10.00 or more leaving the account.  This
 tag catalogs any tax implications that might occur on outgoing funds.
 
 The most important USA-related issue tracked by this tag are contractors who
-must have annual 1099 and/or W2 issued.  An [`Entity` tag](entity-tag) should always
+must have annual 1099 and/or W2 issued.  An [`Entity` tag](#entity-tag) should always
 go along with a TaxImplication tag.
 
 The possible values for this field are:
