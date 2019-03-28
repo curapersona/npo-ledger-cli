@@ -295,7 +295,7 @@ trouble.  However, you could implement checks in
 typos have occurred.  This would be somewhat cumbersome, since Ledger CLI
 would likely require that the monikers be encoded into a regular expression.
 Barring that, the
-[integrity of your data should be periodically checked](#checking-integrity-of-tag).
+[integrity of your data should be periodically checked](#checking-integrity-of-a-tag).
 
 #### IncomeType Tag
 
