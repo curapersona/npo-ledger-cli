@@ -239,6 +239,35 @@ Some examples of appropriate uses of the `Invoice` tag are:
   reimburse (e.g., an expense report, requesting for reimbursement of travel
   expenses).
 
+#### PurchaseOrder Tag
+
+The `PurchaseOrder` tag refers to a document issued by the buyer to a
+seller of a service or product.  It is often issued before the supplier
+can create and submit an invoice.
+
+Some examples of appropriate uses of the `PurchaseOrder` tag are:
+
+* A purchase order for conference sponsorship.
+
+* A purchase order for sponsorship of outreach activities.
+
+#### Contract Tag
+
+The `Contract` tag refers to contracts that define a commercial
+relationship.
+
+Some examples of appropriate uses of the `Contract` tag are:
+
+* a contract between the organization and an independent contractor
+  providing development services.
+
+* a contract with a venue for a conference.
+
+* a contract with a vendor to supply food for a conference.
+
+* a contract for insurance services (such as directors and officers liability
+  insurance).
+
 #### Statement Tag
 
 The `Statement` tag refers to any sort of written statement received from an
@@ -463,7 +492,7 @@ thus deprecated.
 Each `Income:` account must have the following tags:
 
 * One of: [`Invoice`](#invoice-tag),
-  [`PurchaseOrder`](#purchase-order-tag),
+  [`PurchaseOrder`](#purchaseorder-tag),
   [`Statement`](#statement-tag), or
   [`Contract`](#contract-tag).  Exceptions to this requirement are as follows:
      + the income generated from the transaction is less than $800, or
